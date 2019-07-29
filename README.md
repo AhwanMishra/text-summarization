@@ -7,6 +7,9 @@ selecting some of the sentences in the document, that are deemed to be important
 
 
 For this assignment, I have used these Python modules: 
-NLTK (for text processing), 
+
+NLTK (for text processing)
+
 NetworkX (for graph processing)
+
 Numpy (for numerical computations, such as matrix operations).
