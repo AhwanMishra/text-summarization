@@ -4,8 +4,12 @@ Date: September 2, 2018
 Description: In this file text-summarization algorithms are implemented.
 '''
 
-# N.B.  This program gives different ouputs when we use different functions. For word spiltng when we use nltk.word_tokenize everywhere it gives different answer than split(" "). I have used nltk.word_tokenize in most of the places because it gives more meaningful outputs, but not in some places where it is called many times because nltk.word_tokenize is comparatively slower and makes it run slow. So I have only used it wherever it is not called many times.
-
+''' N.B.  This program gives different ouputs when we use different functions. For word spiltng when we use 
+nltk.word_tokenize everywhere it gives different answer than split(" "). I have used nltk.word_tokenize in 
+most of the places because it gives more meaningful outputs, but not in some places where it is called many times 
+because nltk.word_tokenize is comparatively slower and makes it run slow. So I have only used it wherever it is 
+not called many times.
+'''
 
 import nltk
 import numpy
